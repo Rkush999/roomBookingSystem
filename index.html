@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Room Booking System</title>
+      <link rel="stylesheet" type="text/css" href="style14.css">
+   </head>
+   <body>
+      <div class="container">
+         <h1>Room Booking System</h1>
+         <div class="form">
+            <label for="room-type">Room Type:</label>
+            <select id="room-type">
+               <option value="single">Single</option>
+               <option value="double">Double</option>
+               <option value="suite">Suite</option>
+            </select>
+            <label for="check-in-date">Check-in Date:</label>
+            <input type="date" id="check-in-date">
+            <label for="check-out-date">Check-out Date:</label>
+            <input type="date" id="check-out-date">
+            <button type="submit" onclick="bookRoom()">Book Room</button>
+         </div>
+         <div id="message"></div>
+      </div>
+      <script src="main.js"></script>
+   </body>
+</html>
